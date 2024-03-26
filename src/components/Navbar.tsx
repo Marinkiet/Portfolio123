@@ -8,9 +8,9 @@ export default function Navbar (){
                 <Link className="hover:text-purple-400 hover:cursor-pointer" href="/">home</Link>
                 <Link className="hover:text-purple-400 hover:cursor-pointer" href="/about">about</Link>
                 <Link className="hover:text-purple-400 hover:cursor-pointer" href="/chat">chatBot</Link>
+                <Link className="hover:text-yellow-500 hover:cursor-pointer"  href="/certifications">Certifications</Link>       
                 <Link className="hover:text-blue-400 hover:cursor-pointer" target="_blank" href="https://www.linkedin.com/in/marinkie-thupi/">Linkedin</Link>
-
-               
+        
                </nav>
             </div>
         </header>
