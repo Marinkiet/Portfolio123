@@ -81,7 +81,7 @@ export default function AIChatBot({ open, onClose }: AIChatBoxProps) {
                     className="flex items-center justify-center w-10 flex-none"
                     title="Clear chat"
                     onClick={() => setMessages([])}>
-                    <Trash size={24}
+                    <Trash size={24} color="#a855f7"
                 />
                 </button>
 
@@ -89,7 +89,7 @@ export default function AIChatBot({ open, onClose }: AIChatBoxProps) {
                     ref={inputRef}
                     onChange={handleInputChange}
                     placeholder="Ask me anything.."
-                    className="grow border rounded bg-background px-3 py-2 text-sm"
+                    className="grow border rounded bg-background px-3 py-2 text-sm border-purple-500"
                 />
 
                 <button 
@@ -97,7 +97,7 @@ export default function AIChatBot({ open, onClose }: AIChatBoxProps) {
                 title="Submit Message"
                 className="flex items-center justify-center w-10 flex-none  disabled:opacity-50"
                     disabled={isLoading || input.length === 0}>
-                    <SendHorizontalIcon size={24} />
+                    <SendHorizontalIcon size={24} color="#a855f7"/>
                 </button>
             </form>
 
