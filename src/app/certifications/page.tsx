@@ -28,6 +28,7 @@ export default function Certifications() {
         {/* Responsive grid */}
         <Badge imagePath="/FIRSTAID.png" badgeName="First Aid/Basic Life Support"/>
         <Badge imagePath="/SHEREP.png" badgeName="Health and Safety Represenatative"/>
+        {/* <Badge imagePath="/earth.jpeg" badgeName="Earth hackathon"/> */}
         <Badge badgeLink="https://university.atlassian.com/student/award/h7UannJNRdj41qQSbtxaBM1J" imagePath="/CONFLUENCE.png" badgeName="JIRA Confluence"/>
         <Badge badgeLink="https://university.atlassian.com/student/award/Lv9FVP5N7ykzFmKNGaJ9dfvD" imagePath="/JIRA.png" badgeName="JIRA Fundamentals"/>
         <Badge badgeLink="https://university.atlassian.com/student/award/9BabmYqBXap2nkvPkGw3BzgQ" imagePath="/JIRASERV.png" badgeName="JIRA Service Management"/>
@@ -38,7 +39,7 @@ export default function Certifications() {
         <Badge badgeLink="https://www.credly.com/badges/d4062d64-0294-411a-9aaf-96d938702a6c/public_url" imagePath="/AWSTECH.png" badgeName="AWS Technical Partner"/>
         <Badge badgeLink="https://www.credly.com/badges/a3fe851e-6151-4f20-9cd3-000ec251d1a5/public_url" imagePath="/AWSECO.png" badgeName="AWS Cloud Economics Partner"/>
         <Badge badgeLink="https://www.credly.com/badges/d9e929a4-115c-4117-bfbd-651bd0e519e0/public_url" imagePath="/AWSSALES.png" badgeName="AWS SALES Partner"/>
-       
+        {/* <Badge imagePath="/air2.png" badgeName="Air Quality hackathon"/> */}
 
       </section>
 
