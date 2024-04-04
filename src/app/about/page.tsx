@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <section className=" space-y-16 px-1 py-8 flex justify-center flex-col sm:flex-row-reverse sm:justify-between md:flex-col">
+    <section className=" space-y-16 px-1 py-8 flex justify-center flex-col sm:flex-row-reverse sm:justify-between md:flex-col ">
       {/* for mobile set 1 column then 670px and obove set 2 column layout  */}
       <section className="grid-cols-1 items-center gap-8 sm:grid-cols-2">
         <div className="  space-y-3 mb-5  bg-[url('/background.png')] bg-no-repeat bg-cover bg-center">
@@ -143,10 +143,64 @@ export default function About() {
           width={300}
           className="object-cover shadow-md dark:border-foreground h-full w-full rounded-sm md:bottom-40 relative"
         />
+       
       </section>
-      <H3>Thanks for stopping by.</H3>
+      {/* <H3>Thanks for stopping by.</H3> */}
       <hr></hr>
+      <section className="flex gap-4 overflow-x-auto">
+      
+        
+        <Image
+          src={"/c.png"}
+          alt="photo of me"
+          height={200}
+          width={200}
+          className="object-contain"
+        />
+        <Image
+          src={"/py.png"}
+          alt="photo of me"
+          height={200}
+          width={200}
+          className="object-contain"
+        />
+        <Image
+          src={"/js.png"}
+          alt="photo of me"
+          height={200}
+          width={200}
+          className="object-contain"
+        />
+       
+          <Image
+          src={"/node.png"}
+          alt="photo of me"
+          height={200}
+          width={200}
+          className="object-contain"
+        />
+        <Image
+          src={"/react.png"}
+          alt="photo of me"
+          height={200}
+          width={200}
+          className="object-contain"
+        />
+        <Image
+          src={"/html.png"}
+          alt="photo of me"
+          height={200}
+          width={200}
+          className="object-contain"
+        />
+
+       
+        </section>
+      
+      <hr></hr>
+      <H3>Thanks for stopping by.</H3>
     </section>
+    
   );
 }
 
