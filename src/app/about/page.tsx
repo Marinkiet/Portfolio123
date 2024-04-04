@@ -33,17 +33,17 @@ export default function About() {
         {/* Responsive grid */}
 
 
-          <div>
+        <div>
           <Image
             src={"/me.jpeg"}
             alt="photo of me"
             height={400}
             width={300}
-            className="object-cover shadow-md dark:border-foreground h-full w-full flex-shrink-0"
+            className="object-cover shadow-md dark:border-foreground h-full w-full flex-shrink-0 rounded-sm"
           />
-         
-          </div>
-        <div >
+
+        </div>
+        <div className=" md:relative md:top-20" >
           <H3>This is my story — From mountain trails to QWERTY with CMD+C & CMD+V.</H3>
         </div>
 
@@ -56,13 +56,25 @@ export default function About() {
           <br />
           <P>Witnessing the entire process, from conception to market, with a keen eye for future improvements, left me utterly captivated.</P>
         </div>
-        <Image
+        {/* <Image
           src={"/me.jpeg"}
           alt="photo of me"
           height={400}
           width={300}
-          className="object-cover shadow-md dark:border-foreground h-full w-full"
-        />
+          className="object-contain dark:border-foreground h-400 rounded-sm"
+        /> */}
+        <video
+          src="/hike.mp4"
+          muted
+          loop
+          autoPlay
+          playsInline
+          className="object-cover h-400 rounded-sm md:bottom-10 relative"
+        >
+
+          <source src="/me.jpeg" type="image/jpeg" />
+          Your browser does not support the video tag.
+        </video>
 
 
         <Image
@@ -70,9 +82,9 @@ export default function About() {
           alt="photo of me"
           height={400}
           width={300}
-          className="object-cover shadow-md dark:border-foreground h-full w-full"
+          className="object-cover shadow-md dark:border-foreground h-full w-full rounded-sm md:bottom-20 relative"
         />
-        <div >
+        <div className="md:bottom-10 relative" >
           <H3>But I wanted more.</H3>
           <P>But, the academic spark wasn&apos;t enough. While I thrived on the creative freedom of university projects, the slow pace of real-world implementation frustrated me.
           </P>
@@ -82,7 +94,7 @@ export default function About() {
           <P>I craved the challenge of pushing code to production, seeing my designs impact a vast user base, and iterating at lightning speed. Here, in the fast-paced tech world, was the chance to make a real difference on a global scale. </P>
         </div>
 
-        <div >
+        <div className="md:bottom-20 relative">
           <H3>The Cloud Whisperer Awakens.</H3>
           <P>The pandemic hit, and like many, I looked for new horizons. Hackathons became my battlegrounds, each a test of speed and innovation.
           </P>
@@ -90,11 +102,11 @@ export default function About() {
           <P>Here, I discovered the power of cloud development tools. AWS, in particular, became my gateway to building scalable solutions. Through countless challenges and thrilling victories, a developer reborn – a cloud whisperer emerged.</P>
         </div>
         <Image
-          src={"/me.jpeg"}
+          src={"/mtn.jpeg"}
           alt="photo of me"
           height={400}
           width={300}
-          className="object-cover shadow-md dark:border-foreground h-full w-full"
+          className="object-contain dark:border-foreground h-400 rounded-sm "
         />
 
         <Image
@@ -102,9 +114,9 @@ export default function About() {
           alt="photo of me"
           height={400}
           width={300}
-          className="object-cover shadow-md dark:border-foreground h-full w-full"
+          className="object-cover shadow-md dark:border-foreground h-full w-full rounded-sm md:bottom-20 relative"
         />
-        <div >
+        <div className="md:bottom-40 relative" >
           <H3>Making it all happen.</H3>
           <P>The WIL program became my coding bootcamp. It was there I discovered the thrill of working in a versatile team. One day I&apos;d be crafting product roadmaps, the next designing databases.
           </P>
@@ -114,7 +126,7 @@ export default function About() {
           <P>Currently, tech support offered a window into the hearts of users, their needs fueling my passion to build even better experiences.</P>
         </div>
 
-        <div >
+        <div className="md:bottom-20 relative">
           <H3>In my spare time.</H3>
           <P>You might find me lost in a world of creation. Whether it&apos;s wielding brushes and paints, capturing moments through sketches, or scaling new heights on a hike, I crave exploration. </P>
           <br />
@@ -129,7 +141,7 @@ export default function About() {
           alt="photo of me"
           height={400}
           width={300}
-          className="object-cover shadow-md dark:border-foreground h-full w-full"
+          className="object-cover shadow-md dark:border-foreground h-full w-full rounded-sm md:bottom-40 relative"
         />
       </section>
       <H3>Thanks for stopping by.</H3>
