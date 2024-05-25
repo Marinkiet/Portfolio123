@@ -9,6 +9,7 @@ import ProjectButton from "@/components/UI/ProjectButton";
 import ThemeToggle from "@/components/UI/ThemeToggle";
 import AIChatButton from "@/components/UI/AIChatButton";
 import { Bot } from "lucide-react";
+import Footer from "@/components/Footer";
 
 //page specifuic metadata
 export const metadata: Metadata = {
@@ -31,7 +32,7 @@ export default function Home() {
           <p className=" text-center sm:text-start">Full Stack Developer: No layer left <span className="text-purple-500">unturned.</span></p>
           <Navbar />
         </div>
-        <section className="items-center flex gap-2">
+        <section className="items-center flex gap-2 hover:cursor-pointer" >
           <AIChatButton/>
         <h2>ask me anything.</h2>
         </section>
@@ -39,26 +40,26 @@ export default function Home() {
       </section>
       <section> {/* Scrollable section */}
         <section className="space-y-3 items-center"> {/* Nested section for list items */}
-
-          <ProjectButton projectLink="/" projectName="Portfolio" projectYear="2024" githubLink="" />
           <ProjectButton projectLink="/partyrock" projectName="AWS AI/PartyRock App" projectYear="2024" githubLink="https://github.com/Marinkiet/PartyRockAPPDemo" />
           <ProjectButton projectLink="/neumorphism" projectName="UI/Neumorphism " projectYear="2024" githubLink="" />
           <ProjectButton projectLink="/onboarding" projectName="UI/Onboarding" projectYear="2024" githubLink="" />
           <ProjectButton projectLink="/codepencil" projectName="Clone/CodePencil" projectYear="2024" githubLink="" />
-          <ProjectButton projectLink="/habittracker" projectName="Habit Tracker App" projectYear="2024" githubLink="" />
-          <ProjectButton projectLink="/partyrock" projectName="Job Search App" projectYear="2023" githubLink="" />
-          <ProjectButton projectLink="/partyrock" projectName="UI/Shopping Website" projectYear="2022" githubLink="" />
-          <ProjectButton projectLink="/partyrock" projectName="Tap Sound Player" projectYear="2022" githubLink="" />
-          <ProjectButton projectLink="/partyrock" projectName="Clone/Google Search" projectYear="2021" githubLink="" />
-          <ProjectButton projectLink="/partyrock" projectName="Clone/Tesla" projectYear="2021" githubLink="" />
-          <ProjectButton projectLink="/partyrock" projectName="Clone/Instagram" projectYear="2021" githubLink="" />
-          <ProjectButton projectLink="/partyrock" projectName="View More On Github..." githubLink="https://github.com/Marinkiet?tab=repositories" />
+          {/* <ProjectButton projectLink="/habittracker" projectName="Habit Tracker App" projectYear="2024" githubLink="" /> */}
+          <ProjectButton projectLink="/jobapp" projectName="Job Search App" projectYear="2023" githubLink="" />
+          <ProjectButton projectLink="/shopping" projectName="UI/Shopping Website" projectYear="2022" githubLink="" />
+          <ProjectButton projectLink="/tapmusic" projectName="Tap Sound Player" projectYear="2022" githubLink="" />
+          <ProjectButton projectLink="/googleclone" projectName="Clone/Google Search" projectYear="2021" githubLink="" />
+          <ProjectButton projectLink="/teslaclone" projectName="Clone/Tesla" projectYear="2021" githubLink="" />
+          {/* <ProjectButton projectLink="/instagramclone" projectName="Clone/Instagram" projectYear="2021" githubLink="" /> */}
+          <ProjectButton githubLink="http://mtportfolio12.s3-website-eu-west-1.amazonaws.com/" projectName="Old Portfolio" projectYear="----" projectLink="http://mtportfolio12.s3-website-eu-west-1.amazonaws.com/" />
+          <ProjectButton  projectName="View More On Github..." githubLink="https://github.com/Marinkiet?tab=repositories" projectLink="https://github.com/Marinkiet?tab=repositories" />
         </section>
         
       </section>
-      
 
     </section>
+          
+
 
   );
 }

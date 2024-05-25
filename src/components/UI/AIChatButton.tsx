@@ -9,8 +9,8 @@ export default function AIChatButton() {
 
     return (
         <>
-            <button onClick={() => setChatBoxOpen(true)} className="hover:text-green-400 hover:cursor-pointer transition-all hover:scale-100 hover:rotate-180">
-                <Bot size={24} />
+            <button onClick={() => setChatBoxOpen(true)} className="text-purple-500 hover:text-green-500 hover:cursor-pointer transition-all hover:scale-100 hover:rotate-180">
+                <Bot size={30} />
             </button>
             <AIChatBot open={chatBoxOpen} onClose={() => setChatBoxOpen(false)} />
         </>

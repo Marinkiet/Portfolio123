@@ -21,6 +21,7 @@ export default function PartyRock() {
       </section>
       <section className="min-h-full overflow-x-hidden sm:overflow-y-scroll">  
         <H1>AWS StudyParti</H1>
+        <br />
         <P>Study Buddy empowers students to stay on top of their coursework using the power of Artificial Intelligence.
           This application leverages AWS AI Party Rock&apos;s generative AI capabilities to automatically generate personalized notes and quizzes based on any topic you choose.
           Simply enter your class subjects for the day, and Study Parti will create concise summaries and targeted questions to solidify your understanding.

@@ -35,15 +35,15 @@ export default function About() {
 
         <div>
           <Image
-            src={"/me.jpeg"}
+            src={"/color.jpg"}
             alt="photo of me"
             height={400}
             width={300}
-            className="object-cover shadow-md dark:border-foreground h-full w-full flex-shrink-0 rounded-sm"
+            className="object-contain shadow-md dark:border-foreground h-full w-full flex-shrink-0 rounded-sm"
           />
 
         </div>
-        <div className=" md:relative md:top-20" >
+        <div className=" md:relative md:top-10" >
           <H3>This is my story — From mountain trails to QWERTY with CMD+C & CMD+V.</H3>
         </div>
 
@@ -56,33 +56,21 @@ export default function About() {
           <br />
           <P>Witnessing the entire process, from conception to market, with a keen eye for future improvements, left me utterly captivated.</P>
         </div>
-        {/* <Image
-          src={"/me.jpeg"}
-          alt="photo of me"
+        <Image
+          src={"/hike.jpg"}
+          alt="photo of hiking trip"
           height={400}
           width={300}
           className="object-contain dark:border-foreground h-400 rounded-sm"
-        /> */}
-        <video
-          src="/hike.mp4"
-          muted
-          loop
-          autoPlay
-          playsInline
-          className="object-cover h-400 rounded-sm md:bottom-10 relative"
-        >
-
-          <source src="/me.jpeg" type="image/jpeg" />
-          Your browser does not support the video tag.
-        </video>
-
+        />
+      
 
         <Image
-          src={"/me.jpeg"}
+           src={"/tut2.jpg"}
           alt="photo of me"
           height={400}
           width={300}
-          className="object-cover shadow-md dark:border-foreground h-full w-full rounded-sm md:bottom-20 relative"
+          className="object-cover shadow-md dark:border-foreground h-full w-full rounded-sm md:bottom-10 relative"
         />
         <div className="md:bottom-10 relative" >
           <H3>But I wanted more.</H3>
@@ -110,7 +98,7 @@ export default function About() {
         />
 
         <Image
-          src={"/me.jpeg"}
+          src={"/close.jpg"}
           alt="photo of me"
           height={400}
           width={300}
@@ -128,21 +116,25 @@ export default function About() {
 
         <div className="md:bottom-20 relative">
           <H3>In my spare time.</H3>
-          <P>You might find me lost in a world of creation. Whether it&apos;s wielding brushes and paints, capturing moments through sketches, or scaling new heights on a hike, I crave exploration. </P>
+          <P>You might find me lost in a world of creation. Whether it&apos;s wielding brushes and paints, capturing moments through sketches, or scaling new heights on a hike. Balance is key, and for me, that means embracing creativity, learning new things, and having a little fun along the way. </P>
           <br />
-          <P>A good book is a constant companion, and fueling my developer mind are TEDx talks, online tutorials, and even random lectures from around the globe. There&apos;s always something new to learn, and YouTube is my gateway to endless knowledge.</P>
+          {/* <P>A good book is a constant companion, and fueling my developer mind are TEDx talks, online tutorials, and even random lectures from around the globe. There&apos;s always something new to learn, and YouTube is my gateway to endless knowledge.</P> */}
           <br />
           <P>But let&apos;s be honest, sometimes you just gotta unwind. That&apos;s when I&apos;m scrolling through memes, taking pictures of all my wild adventures (hackathons included!), or hitting the mountains for a hike to clear my head.</P>
           <br />
-          <P>Balance is key, and for me, that means embracing creativity, learning new things, and having a little fun along the way.</P>
+          {/* <P>Balance is key, and for me, that means embracing creativity, learning new things, and having a little fun along the way.</P> */}
+ 
         </div>
+       
         <Image
-          src={"/me.jpeg"}
+          src={"/play.jpg"}
           alt="photo of me"
           height={400}
           width={300}
           className="object-cover shadow-md dark:border-foreground h-full w-full rounded-sm md:bottom-40 relative"
         />
+         
+
        
       </section>
       {/* <H3>Thanks for stopping by.</H3> */}

@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run generate && next build",
+    "generate": "npx ts-node ./scripts/generate.ts",
     "start": "next start",
     "lint": "next lint"
   },
@@ -17,7 +18,7 @@
     "dotenv": "^16.4.5",
     "langchain": "^0.1.28",
     "lucide-react": "^0.360.0",
-    "next": "14.1.4",
+    "next": "^14.1.4",
     "next-themes": "^0.3.0",
     "openai": "^4.29.2",
     "react": "^18",
@@ -41,6 +42,6 @@
     "typescript": "^5"
   },
   "overrides": {
-    "@langchain/core":"0.1.49"
+    "@langchain/core": "0.1.49"
   }
 }

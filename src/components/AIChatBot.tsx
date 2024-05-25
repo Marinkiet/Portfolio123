@@ -70,8 +70,6 @@ export default function AIChatBot({ open, onClose }: AIChatBoxProps) {
                         <p className="text-muted-foreground text-sm">
                             This brainiac bot can relay out answers about me like a digital parrot. Ask away!
                         </p>
-
-
                     </div>
                 )}
             </div>
@@ -96,7 +94,7 @@ export default function AIChatBot({ open, onClose }: AIChatBoxProps) {
                 type="submit"
                 title="Submit Message"
                 className="flex items-center justify-center w-10 flex-none  disabled:opacity-50"
-                    disabled={isLoading || input.length === 0}>
+                    disabled={input.length === 0}>
                     <SendHorizontalIcon size={24} color="#a855f7"/>
                 </button>
             </form>

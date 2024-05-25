@@ -8,6 +8,7 @@ export default function Navbar() {
                     <Link className="hover:text-purple-400 hover:cursor-pointer" href="/">home</Link>
                     <Link className="hover:text-purple-400 hover:cursor-pointer" href="/about">about</Link>
                     <Link className="hover:text-yellow-500 hover:cursor-pointer" href="/certifications">certifications</Link>
+                    <Link className="hover:text-pink-500 hover:cursor-pointer" target="_blank" href="https://github.com/Marinkiet">Github</Link>
                     <Link className="hover:text-blue-400 hover:cursor-pointer" target="_blank" href="https://www.linkedin.com/in/marinkie-thupi/">Linkedin</Link>
                 </nav>
             </div>
