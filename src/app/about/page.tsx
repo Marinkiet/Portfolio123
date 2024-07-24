@@ -153,6 +153,7 @@ export default function About() {
             <li>Linux commands</li>
             <li>Langchain</li>
             <li>Figma</li>
+            <li>Coming soon - JAVA ☕️</li>
           </ul>
         </section>
         <section>
@@ -170,8 +171,6 @@ export default function About() {
             <li>Atlassian Jira Fundamentals</li>
             <li>Atlassian Service Management Fundamentals</li>
             <li>First Aider - Level 2</li>
-
-
           </ul>
         </section>
       </section>
