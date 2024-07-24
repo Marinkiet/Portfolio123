@@ -29,9 +29,9 @@ export default function TestlaClone() {
         <br />
       
         <br />
-        <P>This project replicates the clean, futuristic aesthetic of Tesla's official website, 
+        <P>This project replicates the clean, futuristic aesthetic of Tesla&apos;s official website, 
           showcasing a strong understanding of design principles and web development fundamentals. By utilizing HTML for structure and CSS for styling, 
-          I have created a visually appealing and user-friendly webpage that embodies Tesla's brand identity.</P>
+          I have created a visually appealing and user-friendly webpage that embodies Tesla&apos;s brand identity.</P>
         <br />
 
         <section className="min-h-screen px-4 py-8 flex flex-col justify-between">
