@@ -59,7 +59,7 @@ export default function Neumorphism() {
                 <section className="min-h-screen px-4 py-8 flex flex-col justify-between">
                     <section className="w-full h-auto mb-8">
                         <h2 className="text-2xl font-bold mb-4">Project Demo</h2>
-                        <section className="w-full overflow-x-scroll justify-around md:flex gap-4">
+                        {/* <section className="w-full overflow-x-scroll justify-around md:flex gap-4">
                             <video
                                 src="/hike.mp4"
                                 muted
@@ -90,7 +90,7 @@ export default function Neumorphism() {
                                 playsInline
                                 className="h-400 rounded-sm "
                             />
-                        </section>
+                        </section> */}
                     </section>
                     <h2 className="text-2xl font-bold mb-4 mt-10">Project Screenshots</h2>
                     <section className="md:flex md:justify-between sm:justify-between mb-10 overflow-x-scroll gap-4">

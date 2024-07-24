@@ -19,7 +19,7 @@ export default function TestlaClone() {
       <section className="px-1 py-8 flex justify-start  sm:justify-between gap-8">
         <Link className="hover:bg-purple-200 rounded-full p-1" href={"/"}><Lamp size={30} color="#a855f7"></Lamp></Link>
         <div className="align-middle justify-center">
-          <ProjectButton nextStyle="hover:bg-green-100 rounded-lg hover:shadow-md" projectLink="http://mtportfolio12.s3-website-eu-west-1.amazonaws.com/" projectName="Next -> Old Portfolio " projectYear="----" githubLink="" />
+          <ProjectButton target="_blank" nextStyle="hover:bg-green-100 rounded-lg hover:shadow-md" projectLink="http://mtportfolio12.s3-website-eu-west-1.amazonaws.com/" projectName="Next -> Old Portfolio " projectYear="----" githubLink="" />
           <ProjectButton nextStyle="hover:bg-gray-100 rounded-lg hover:shadow-md" projectLink="googleclone" projectName="<- Back Clone/Google  " projectYear="2021" githubLink="" />
         </div>
 
@@ -27,14 +27,11 @@ export default function TestlaClone() {
       <section className="min-h-full">  {/* Set min-height to full viewport */}
         <H1>Tesla Clone</H1>
         <br />
-        <Link href="https://marinkiet.github.io/Tapmusic/" target="_blank" className="text-purple-400 underline">Preview</Link>
+      
         <br />
-        <br />
-        <P>Breathe life into your code creations with a CodePen clone built using cutting-edge web technologies.
-          This interactive platform empowers you to code, preview, and share your HTML, CSS, and JavaScript masterpieces with ease.
-          Imagine a seamless workspace where you can experiment, collaborate, and showcase your coding prowess.
-          The CodePencil fosters a vibrant community of developers, allowing you to learn from others creations and inspire them with your own.
-          Dive into the world of front-end development, refine your skills, and ignite your creative spark all within a user-friendly and collaborative environment.</P>
+        <P>This project replicates the clean, futuristic aesthetic of Tesla's official website, 
+          showcasing a strong understanding of design principles and web development fundamentals. By utilizing HTML for structure and CSS for styling, 
+          I have created a visually appealing and user-friendly webpage that embodies Tesla's brand identity.</P>
         <br />
 
         <section className="min-h-screen px-4 py-8 flex flex-col justify-between">

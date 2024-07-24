@@ -63,10 +63,10 @@ export default function About() {
           width={300}
           className="object-contain dark:border-foreground h-400 rounded-sm"
         />
-      
+
 
         <Image
-           src={"/tut2.jpg"}
+          src={"/tut2.jpg"}
           alt="photo of me"
           height={400}
           width={300}
@@ -123,9 +123,9 @@ export default function About() {
           <P>But let&apos;s be honest, sometimes you just gotta unwind. That&apos;s when I&apos;m scrolling through memes, taking pictures of all my wild adventures (hackathons included!), or hitting the mountains for a hike to clear my head.</P>
           <br />
           {/* <P>Balance is key, and for me, that means embracing creativity, learning new things, and having a little fun along the way.</P> */}
- 
+
         </div>
-       
+
         <Image
           src={"/play.jpg"}
           alt="photo of me"
@@ -133,16 +133,54 @@ export default function About() {
           width={300}
           className="object-cover shadow-md dark:border-foreground h-full w-full rounded-sm md:bottom-40 relative"
         />
-         
 
-       
+
+
       </section>
       {/* <H3>Thanks for stopping by.</H3> */}
-      <hr></hr>
+      <hr />
+      <section className="grid grid-cols-2 gap-4">
+        <section>
+          <h4>Tech Skills</h4>
+          <br />
+          <ul>
+            <li>C++</li>
+            <li>Javascript</li>
+            <li>Python Beginner 🦦</li>
+            <li>ReactNative</li>
+            <li>React</li>
+            <li>Angular</li>
+            <li>Linux commands</li>
+            <li>Langchain</li>
+            <li>Figma</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Certifications</h4>
+          <br />
+          <ul>
+            <li>AWS Cloud Practitioner</li>
+            <li>AWS Associate Solution Architect</li>
+            <li>AWS Partner Economics 🦦</li>
+            <li>AWS Partner Technical</li>
+            <li>AWS Partner Sales</li>
+            <li>Linux Foundation FinOps Practitioner</li>
+            <li>Scrum Alliance Scrum</li>
+            <li>Atlassian Confluence Fundamentals</li>
+            <li>Atlassian Jira Fundamentals</li>
+            <li>Atlassian Service Management Fundamentals</li>
+            <li>First Aider - Level 2</li>
+
+
+          </ul>
+        </section>
+      </section>
+
+
       <section className="flex gap-4 overflow-x-auto">
-      
-        
-        <Image
+
+
+        {/* <Image
           src={"/c.png"}
           alt="photo of me"
           height={200}
@@ -155,8 +193,8 @@ export default function About() {
           height={200}
           width={200}
           className="object-contain"
-        />
-        <Image
+        /> */}
+        {/* <Image
           src={"/js.png"}
           alt="photo of me"
           height={200}
@@ -184,15 +222,15 @@ export default function About() {
           height={200}
           width={200}
           className="object-contain"
-        />
+        /> */}
 
-       
-        </section>
-      
+
+      </section>
+
       <hr></hr>
       <H3>Thanks for stopping by.</H3>
     </section>
-    
+
   );
 }
 

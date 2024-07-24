@@ -57,7 +57,7 @@ export async function POST(req: Request) {
                 "user", "{input}"
             ],
             [
-                "user", "Given the above conversaation, generate a search query to lookup in order to get information relevant to the current question. " +
+                "user", "Given the above conversation, generate a search query to lookup in order to get information relevant to the current question. " +
                 "Don't leave out any relevant keywords. Only return the query an no other text."
             ]
         ])
@@ -104,7 +104,7 @@ export async function POST(req: Request) {
         })
         // const systemMessage:ChatCompletionMessageParam = {
         //     role:"system",
-        //     content:"You are a bot named Marinkie, she works at pineapple now."
+        //     content:"You are a bot named Marinkie"
         // }
 
         // const response = await openai.chat.completions.create({

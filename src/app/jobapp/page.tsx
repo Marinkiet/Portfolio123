@@ -24,13 +24,13 @@ export default function JobSearch() {
         </div>
 
       </section>
-      <section className="min-h-full">  {/* Set min-height to full viewport */}
+      <section className="min-h-full ">  {/* Set min-height to full viewport */}
         <H1>Job Search App</H1>
         <br />
         <P>This job search app leverages React Native&apos;s cross-platform capabilities to deliver a native-like experience on both Android and iOS devices. Expo streamlines the development process, allowing for rapid prototyping and deployment.
              Finally, I used Rapid API integration to fuel the app with a vast database of job postings, ensuring users have a wide range of opportunities to explore.</P>
           <br />
-        <section className="flex justify-around align-middle">
+        <section className="flex justify-around align-middle overflow-scroll">
           <video
             src="/jobvideo.mp4"
             muted

@@ -29,7 +29,7 @@ export default function Onboarding() {
         <br />
         <P>Imagine navigating your onboarding experience with a delightful flow. The Reanimated library by React Native empowers you to craft precisely that. By leveraging shared animated values, you can orchestrate seamless transitions between onboarding screens. As users swipe through content, elements like titles, descriptions, and images can gracefully animate in and out, creating a captivating introduction to your music app or smart home system. This smooth user experience not only enhances aesthetics but also reinforces the intuitive nature of your app, setting the stage for a positive first impression.</P>
           <br />
-        <section className="flex justify-around align-middle">
+        <section className="flex justify-around align-middle overflow-scroll">
           <video
             src="/onboardingvideo.mp4"
             muted
@@ -38,7 +38,7 @@ export default function Onboarding() {
             height={300}
             width={220}
             playsInline
-            className="h-400 rounded-2xl"
+            className="h-400 rounded-2xl mr-5"
           />
           <section className="flex justify-between gap-3"> 
           <Image

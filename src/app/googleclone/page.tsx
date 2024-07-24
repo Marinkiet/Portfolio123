@@ -27,14 +27,11 @@ export default function GoogleClone() {
       <section className="min-h-full">  {/* Set min-height to full viewport */}
         <H1>Google Clone</H1>
         <br />
-        <Link href="https://marinkiet.github.io/Tapmusic/" target="_blank" className="text-purple-400 underline">Preview</Link>
+        {/* <br /> */}
         <br />
-        <br />
-        <P>Breathe life into your code creations with a CodePen clone built using cutting-edge web technologies.
-          This interactive platform empowers you to code, preview, and share your HTML, CSS, and JavaScript masterpieces with ease.
-          Imagine a seamless workspace where you can experiment, collaborate, and showcase your coding prowess.
-          The CodePencil fosters a vibrant community of developers, allowing you to learn from others creations and inspire them with your own.
-          Dive into the world of front-end development, refine your skills, and ignite your creative spark all within a user-friendly and collaborative environment.</P>
+        <P>This project demonstrates a strong grasp of fundamental web development principles through the meticulous recreation of the Google homepage. 
+          By leveraging HTML for structure and CSS for styling, 
+          I have accurately replicated the layout, typography, and color scheme of the original design.</P>
         <br />
 
         <section className="min-h-screen px-4 py-8 flex flex-col justify-between">

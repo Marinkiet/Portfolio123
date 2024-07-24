@@ -51,8 +51,8 @@ export default function Home() {
           <ProjectButton projectLink="/googleclone" projectName="Clone/Google Search" projectYear="2021" githubLink="" />
           <ProjectButton projectLink="/teslaclone" projectName="Clone/Tesla" projectYear="2021" githubLink="" />
           {/* <ProjectButton projectLink="/instagramclone" projectName="Clone/Instagram" projectYear="2021" githubLink="" /> */}
-          <ProjectButton githubLink="http://mtportfolio12.s3-website-eu-west-1.amazonaws.com/" projectName="Old Portfolio" projectYear="----" projectLink="http://mtportfolio12.s3-website-eu-west-1.amazonaws.com/" />
-          <ProjectButton  projectName="View More On Github..." githubLink="https://github.com/Marinkiet?tab=repositories" projectLink="https://github.com/Marinkiet?tab=repositories" />
+          <ProjectButton target="_blank" githubLink="http://mtportfolio12.s3-website-eu-west-1.amazonaws.com/" projectName="Old Portfolio" projectYear="----" projectLink="http://mtportfolio12.s3-website-eu-west-1.amazonaws.com/" />
+          <ProjectButton target="_blank" projectName="View More On Github..." githubLink="https://github.com/Marinkiet?tab=repositories" projectLink="https://github.com/Marinkiet?tab=repositories" />
         </section>
         
       </section>

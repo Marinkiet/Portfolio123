@@ -19,7 +19,7 @@ export default function TapMusic() {
         <Link className="hover:bg-purple-200 rounded-full p-1" href={"/"}><Lamp size={30} color="#a855f7"></Lamp></Link>
         <div className="align-middle justify-center">
           <ProjectButton nextStyle="hover:bg-green-100 rounded-lg hover:shadow-md" projectLink="googleclone" projectName="Next ->  Clone/Google" projectYear="2021" githubLink="" />
-          <ProjectButton nextStyle="hover:bg-gray-100 rounded-lg hover:shadow-md" projectLink="teslacone" projectName="<- Back Clone/Tesla " projectYear="2021" githubLink="" />
+          <ProjectButton nextStyle="hover:bg-gray-100 rounded-lg hover:shadow-md" projectLink="shopping" projectName="<- MaryKay Shoping Website" projectYear="2021" githubLink="" />
         </div>
 
       </section>
@@ -29,11 +29,9 @@ export default function TapMusic() {
         <Link href="https://marinkiet.github.io/Tapmusic/" target="_blank" className="text-purple-400 underline">Preview</Link>
         <br />
         <br />
-        <P>Breathe life into your code creations with a CodePen clone built using cutting-edge web technologies.
-          This interactive platform empowers you to code, preview, and share your HTML, CSS, and JavaScript masterpieces with ease.
-          Imagine a seamless workspace where you can experiment, collaborate, and showcase your coding prowess.
-          The CodePencil fosters a vibrant community of developers, allowing you to learn from others creations and inspire them with your own.
-          Dive into the world of front-end development, refine your skills, and ignite your creative spark all within a user-friendly and collaborative environment.</P>
+        <P>This web application offers a playful and engaging interface where users can create music by simply tapping on tiles.
+           Each tile is assigned a unique sound, which is triggered upon interaction. 
+           To enhance visual feedback, a vibrant ball animates with a bouncy effect on the clicked tile.</P>
         <br />
 
         <section className="min-h-screen px-4 py-8 flex flex-col justify-between">

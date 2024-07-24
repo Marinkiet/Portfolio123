@@ -29,8 +29,8 @@ export default function Shopping() {
         <br />
         <br />
         <P>MaryKay: Where Style Meets Sustainability (A Clothing E-commerce Experience)
-Embrace a future of fashion that&apos;s kind to both you and the planet at MaryKay. Thus thoughtfully curated e-commerce platform offers a world of possibilities for the conscious shopper.
-This was build using basic HTML,CSS and Javascript</P>
+          Embrace a future of fashion that&apos;s kind to both you and the planet at MaryKay. Thus thoughtfully curated e-commerce platform offers a world of possibilities for the conscious shopper.
+          This was build using basic HTML,CSS and Javascript</P>
         <br />
 
         <section className="min-h-screen px-4 py-8 flex flex-col justify-between">
@@ -47,8 +47,6 @@ This was build using basic HTML,CSS and Javascript</P>
                 playsInline
                 // className="h-600"
               />
-            
-
             </section>
           </section>
         </section>
